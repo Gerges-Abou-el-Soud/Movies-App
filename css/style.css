@@ -1,0 +1,152 @@
+body{
+
+    background-color: #0D0D0D;
+
+}
+
+
+
+#leftMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidenav a {
+    padding: 10px 8px 10px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+.sidenav {
+    background-color: #414658;
+}
+
+
+.sidenav a:hover {
+    color: #ff655c;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#sidebar-content {
+    background-color: #fff;
+    position: fixed;
+    z-index: 555555555;
+    transition: margin-left .5s;
+    padding: 16px;
+    width: 60px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.strip-social-icon span a{
+color: #111;
+}
+
+
+.strip-socialSideNav-link{
+    display: flex;
+    justify-content: left;
+
+}
+
+
+#sidebar-content img {
+    width: 40px;
+    height: 60px;
+    text-align: center;
+    padding:2px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#home{
+    width: 100%;
+}
+
+
+.info-poster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: top 0.8s , opacity 0.7s ;
+    background-color: rgba(204, 204, 204, 0.86);
+    border-radius: 5px ;
+}
+
+.posterImage:hover .info-poster {
+    top: 0 !important;
+    opacity: 1 !important;
+}
+
+#rate{
+    display: block;
+    margin: 10px;
+}
+
+.postert-img{
+    border-radius: 5px ;
+}
+
+
+
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+    color: #fff;
+    font-weight: 800;
+    
+}
+
+.form-control:focus{
+    
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius: 0;
+} 
+
+
+/* 
+.alert {
+    display: none;
+} */
+
